@@ -2,9 +2,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-
+# Inherit some common revengeos stuff.	
+$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
 # Inherit from TP1803 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
 
 PRODUCT_BRAND := Nubia
 PRODUCT_DEVICE := TP1803
