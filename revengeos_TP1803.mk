@@ -11,7 +11,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Nubia
 PRODUCT_DEVICE := TP1803
 PRODUCT_MANUFACTURER := Nubia
-PRODUCT_NAME := lineage_TP1803
+PRODUCT_NAME := revengeos_TP1803
 PRODUCT_MODEL := Mini 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
